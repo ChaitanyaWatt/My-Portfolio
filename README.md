@@ -1,5 +1,7 @@
 **My Portfolio**
+**It can be accessed here**
 
+https://chaitanyawatt.github.io/My-Portfolio/
 
 Welcome to my portfolio! This project is a personal website showcasing my work and skills. It is built using HTML, CSS, and JavaScript.
 
