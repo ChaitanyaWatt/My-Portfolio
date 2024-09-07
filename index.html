@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatiable" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/logo.png" />
+    <title>CHAITANYA WATT. Portfolio</title>
+
+    <!-- ==== swiper js ==== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- ==== IconScout ==== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- ==== Box icons ==== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- main file css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ========= Header ========= -->
+    <header id="header">
+        <div class="container">
+            <div class="nav__logo">
+                <a href="#" class="logo">Chaitanya<span>.</span></a>
+            </div>
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#hero" class="menu_link active-link">Home</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#about" class="menu_link">About</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#portfolio" class="menu_link">Portfolio</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#services" class="menu_link">Services</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#contact" class="menu_link">Contact</a>
+                </li>
+                <li>
+                    <ion-icon name="close-outline" class="close_icon"></ion-icon>
+                </li>
+            </ul>
+            <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
+        </div>
+    </header>
+
+    <main>
+        <!-- ========== Hero section ========== -->
+        <section class="hero section" id="hero">
+            <div class="hero_container container grid">
+                <div class="hero_content">
+                    <h4>hi there,</h4>
+                    <h1>I'm
+                        <span class="typed" data-typed-items="Designer, Developer, Freelancer"></span>
+                    </h1>
+                    <p>
+                        I'm creative designer based in Bhopal, and I'm very passionate and dedicated to my work.
+                    </p>
+                    <div class="hero_social">
+                        <a href="https://www.instagram.com/chaitanya_watt/"><ion-icon
+                                name="logo-instagram"></ion-icon></a>
+                        <a href="https://www.linkedin.com/in/chaitanya-watt"><ion-icon
+                                name="logo-linkedin"></ion-icon></a>
+                        <a href="https://github.com/ChaitanyaWatt"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="https://x.com/ChaitanyaWatt?t=VpfbY7PUUmauOnKa6rFCgA&s=09"><ion-icon
+                                name="logo-twitter"></ion-icon></a>
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/1GXqybATCx9yTuyuUeOaEPoAhOMsnlKze?usp=drive_link"
+                        class="btn">
+                        Download Resume
+                        <i class='bx bxs-download'></i>
+                    </a>
+                </div>
+                <div class="hero_img">
+                    <img src="./images/homeimg.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== About Section ========== -->
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+
+            <div class="about_container container grid">
+                <div class="about_img">
+                    <img src="./images/aboutimg.png" alt="">
+                </div>
+                <div class="about_content">
+                    <h1>I make a professional and creative design.</h1>
+                    <p>I love designing with a mix of creativity and professionalism, making sure each piece is both
+                        eye-catching and meaningful. I take the time to understand what clients want and bring their
+                        ideas to life in a way that stands out. My aim is always to create designs that leave a lasting
+                        impression and really resonate with people.</p>
+                    <div class="about_info">
+                        <div>
+                            <span class="number">10+</span>
+                            <br>
+                            <span class="text">Completed <br>projects</span>
+                        </div>
+                        <div>
+                            <span class="number">5+</span>
+                            <br>
+                            <span class="text">Positive <br>review's</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Portfolio Section ========== -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+
+            <div class="portfolio_container container">
+                <ul class="portfolio_filters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-design">Design</li>
+                    <li data-filter=".filter-web">Web</li>
+                </ul>
+                <div class="portfolio_warp-container">
+                    <div class="portfolio_item filter-web">
+                        <div class="portfolio_warp">
+                            <img src="./images/zomato clone.jpg" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Zomato-Clone</h4>
+                                <p>Web</p>
+                                <div class="portfolio_links">
+                                    <a href="https://chaitanyawatt.github.io/Zomato-Clone/"><ion-icon
+                                            name="add-outline"></ion-icon></a>
+                                    <a href="https://chaitanyawatt.github.io/Zomato-Clone/"><ion-icon
+                                            name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-web">
+                        <div class="portfolio_warp">
+                            <img src="./images/smart ring.jpg" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>RingConn (Smart Ring)</h4>
+                                <p>Web</p>
+                                <div class="portfolio_links">
+                                    <a href="https://chaitanyawatt.github.io/RingConn-Smart-Ring-Website/"><ion-icon
+                                            name="add-outline"></ion-icon></a>
+                                    <a href="https://chaitanyawatt.github.io/RingConn-Smart-Ring-Website/"><ion-icon
+                                            name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-web">
+                        <div class="portfolio_warp">
+                            <img src="./images/calci.jpg" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Calculator</h4>
+                                <p>Web</p>
+                                <div class="portfolio_links">
+                                    <a href="https://chaitanyawatt.github.io/Calculator/"><ion-icon
+                                            name="add-outline"></ion-icon></a>
+                                    <a href="https://chaitanyawatt.github.io/Calculator/"><ion-icon
+                                            name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-design">
+                        <div class="portfolio_warp">
+                            <img src="./images/design 1.jpg" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Design 1</h4>
+                                <p>Design</p>
+                                <div class="portfolio_links">
+                                    <a
+                                        href="https://drive.google.com/drive/folders/1FVGwTV2B7VZnGIJF2FDd_FDyZJuSQFQS?usp=sharing"><ion-icon
+                                            name="add-outline"></ion-icon></a>
+                                    <a
+                                        href="https://drive.google.com/drive/folders/1FVGwTV2B7VZnGIJF2FDd_FDyZJuSQFQS?usp=sharing"><ion-icon
+                                            name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-design">
+                        <div class="portfolio_warp">
+                            <img src="./images/design 2.jpg" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Design 2</h4>
+                                <p>Design</p>
+                                <div class="portfolio_links">
+                                    <a
+                                        href="https://drive.google.com/drive/folders/18sj2QKxYWt8D_35CBlFhJHS5lewRpOo-?usp=sharing"><ion-icon
+                                            name="add-outline"></ion-icon></a>
+                                    <a
+                                        href="https://drive.google.com/drive/folders/18sj2QKxYWt8D_35CBlFhJHS5lewRpOo-?usp=sharing"><ion-icon
+                                            name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-design">
+                        <div class="portfolio_warp">
+                            <img src="./images/design 3.jpg" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Design 3</h4>
+                                <p>Design</p>
+                                <div class="portfolio_links">
+                                    <a
+                                        href="https://drive.google.com/drive/folders/17AHmfLH3Bgy8gUOuNMV4YrJyH97O6mgg?usp=sharing"><ion-icon
+                                            name="add-outline"></ion-icon></a>
+                                    <a
+                                        href="https://drive.google.com/drive/folders/17AHmfLH3Bgy8gUOuNMV4YrJyH97O6mgg?usp=sharing"><ion-icon
+                                            name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Testimonal Section ========== -->
+        <section class="testimonal section" id="testimonal">
+            <h2 class="section_title">Testimonal</h2>
+
+            <div class="testimonal_container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonal_item swiper-slide">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        <p>Their creativity and attention to detail are unmatched. They delivered high-quality designs
+                            that not only looked great but also aligned with our goals perfectly.</p>
+                        <div class="img_name">
+                            <img src="./images/1a.jpg" alt="">
+                            <span class="name">Ankur Deshpande</span>
+                            <span class="post">Clients</span>
+                        </div>
+                    </div>
+                    <div class="testimonal_item swiper-slide">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        <p>Highly professional and incredibly talented! They listened to our needs and created designs
+                            that were both unique and impactful. Truly exceeded our expectations!.</p>
+                        <div class="img_name">
+                            <img src="./images/aarav singh.jpg" alt="">
+                            <span class="name">Aarav Singh</span>
+                            <span class="post">Clients</span>
+                        </div>
+                    </div>
+                    <div class="testimonal_item swiper-slide">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        <p>Collaborating with them was a great experience. They brought fresh ideas to the table and
+                            delivered beautiful designs quickly. I couldn't be more satisfied with the results.</p>
+                        <div class="img_name">
+                            <img src="./images/1b.jpg" alt="">
+                            <span class="name">Dhruv Chaudhary</span>
+                            <span class="post">Clients</span>
+                        </div>
+                    </div>
+                    <div class="testimonal_item swiper-slide">
+                        <i class='bx bxs-quote-alt-left'></i>
+                        <p>"I had a fantastic experience collaborating with them. They brought a fresh perspective and
+                            delivered exceptional designs on time. The end result was exactly what I had hoped for.</p>
+                        <div class="img_name">
+                            <img src="./images/rohan.jpg" alt="">
+                            <span class="name">Rohan Kapadiya</span>
+                            <span class="post">Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Service Section ========== -->
+        <section class="services section" id="services">
+            <h2 class="section_title">Services</h2>
+
+            <div class="services_container container grid">
+                <div class="services_item">
+                    <i class="uil uil-window-grid"></i>
+                    <h3 class="services_title">UI/UX <br>Designer</h3>
+                    <span class="services_button">
+                        View More <i class="uil uil-angle-right"></i>
+                    </span>
+                    <div class="services_modal">
+                        <div>
+                            <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+                            <h3 class="services_modal-title">UI/UX Designer</h3>
+                            <p class="services_modal-description">Services with more than 3 years of experience.
+                                Providing quality work to clients and companies.</p>
+                            <ul>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">I develop the user interface.</p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">Web page development.</p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">I create ux element interactions.</p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">I position your company brand.</p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">Design and mockups of products for companies.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services_item">
+                    <i class="uil uil-window-grid"></i>
+                    <h3 class="services_title">Frontend <br>Developer</h3>
+                    <span class="services_button">
+                        View More <i class="uil uil-angle-right"></i>
+                    </span>
+                    <div class="services_modal">
+                        <div>
+                            <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+                            <h3 class="services_modal-title">Frontend Developer</h3>
+                            <p class="services_modal-description">Services with more than 3 years of experience.
+                                Providing quality work to clients and companies.</p>
+                            <ul>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">I develop the user interface.</p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">Web page development.</p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">I create ux element interactions.</p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">I position your company brand.</p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">Design and mockups of products for companies.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services_item">
+                    <i class="uil uil-window-grid"></i>
+                    <h3 class="services_title">Branding <br>Designer</h3>
+                    <span class="services_button">
+                        View More <i class="uil uil-angle-right"></i>
+                    </span>
+                    <div class="services_modal">
+                        <div>
+                            <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+                            <h3 class="services_modal-title">Branding Designer</h3>
+                            <p class="services_modal-description">Services with more than 3 years of experience.
+                                Providing quality work to clients and companies.</p>
+                            <ul>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">I develop the user interface.</p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">Web page development.</p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">I create ux element interactions.</p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">I position your company brand.</p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check-circle"></i>
+                                    <p class="services_modal-info">Design and mockups of products for companies.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Contact Section ========== -->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+
+            <div class="contact_container container">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <div class="contact_content">
+                        <div class="inputs">
+                            <input type="hidden" name="access_key" value="b0be1011-b711-4e30-baa1-29c483dfec5d">
+                            <input type="text" name="name" placeholder="Name" required>
+                            <input type="text" name="email" placeholder="Email" required>
+                        </div>
+                        <input type="number" name="number" placeholder="Mobile Number">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="message" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                        <button type="submit" class="btn">Send Message <ion-icon
+                                name="chevron-forward-outline"></ion-icon></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- ========== Footer Section ========== -->
+        <footer>
+            <div class="footer_bg">
+                <div class="footer_container container">
+                    <div class="main_footer">
+                        <div class="footer_social">
+                            <a href="https://www.instagram.com/chaitanya_watt/"><i class='bx bxl-instagram'></i></a>
+                            <a href="https://www.linkedin.com/in/chaitanya-watt"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://x.com/ChaitanyaWatt?t=VpfbY7PUUmauOnKa6rFCgA&s=09"><i
+                                    class='bx bxl-twitter'></i></a>
+                        </div>
+                        <h3>Chaitanya Watt</h3>
+                        <p>Specializing in creative design and cutting-edge development, I craft digital experiences
+                            that are visually striking, highly functional, and consistently exceed expectations.</p>
+                    </div>
+                    <div class="footer_copy">&#169; Chaitanya Watt. All rights reserved</div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+    <!-- ====== swiper js ====== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- ======= mixitup ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+
+    <!-- ======= type js ======= -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- ======= IonIcons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- ===== Main Script ===== -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
